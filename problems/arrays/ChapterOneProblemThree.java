@@ -1,5 +1,3 @@
-package problems;
-
 // import java.util.ArrayList;
 // import java.util.Arrays;
 // import java.util.Iterator;
@@ -14,6 +12,9 @@ package problems;
 //whitespace the %20 is the hex code placeholder signifying whitespace in the
 //URL.
 //My method will not utilize any of the java utils.
+
+package problems.arrays;
+
 public class ChapterOneProblemThree {
     String inputString;
     // String REGEX;

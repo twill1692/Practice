@@ -1,4 +1,4 @@
-package search;
+package problems.search;
 
 class BinarySearch {
 

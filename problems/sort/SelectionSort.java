@@ -1,4 +1,4 @@
-package sort;
+package problems.sort;
 
 class SelectionSort {
 

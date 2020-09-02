@@ -1,6 +1,6 @@
-package problems;
+package problems.linked_list;
 
-import java.util.HashSet;
+// import java.util.HashSet;
 
 public class ChapterTwo {
 
@@ -45,25 +45,25 @@ public class ChapterTwo {
         // dupes as the way its
         // currently written, any sort of collection object would work just as
         // effectively.
-        void removeDupesWithSet() {
-            HashSet<Integer> intSet = new HashSet<Integer>();
-            Node n = head;
-            while (n != null) {
-                if (intSet.contains(n.data)) {
-                    if (n.next == null) {
-                        n.previous.next = null;
-                        n = n.next;
-                    } else {
-                        n.next.previous = n.previous;
-                        n.previous.next = n.next;
-                        n = n.next;
-                    }
-                } else {
-                    intSet.add(n.data);
-                    n = n.next;
-                }
-            }
-        }
+        // void removeDupesWithSet() {
+        // HashSet<Integer> intSet = new HashSet<Integer>();
+        // Node n = head;
+        // while (n != null) {
+        // if (intSet.contains(n.data)) {
+        // if (n.next == null) {
+        // n.previous.next = null;
+        // n = n.next;
+        // } else {
+        // n.next.previous = n.previous;
+        // n.previous.next = n.next;
+        // n = n.next;
+        // }
+        // } else {
+        // intSet.add(n.data);
+        // n = n.next;
+        // }
+        // }
+        // }
 
         // Prints the contents of the nodes as well as the head/head.next and
         // tail/tail.previous.
@@ -81,13 +81,13 @@ public class ChapterTwo {
             }
         }
 
-        void printBackwards() {
-            Node t = tail;
-            while (t != null) {
-                System.out.println(t.data);
-                t = t.previous;
-            }
-        }
+        // void printBackwards() {
+        // Node t = tail;
+        // while (t != null) {
+        // System.out.println(t.data);
+        // t = t.previous;
+        // }
+        // }
 
         // Start with a pointer to head and iterate through the nodes until the end.
         // end.next gets the

@@ -1,5 +1,7 @@
 //Given two strings, determine if one is a permutation of the other.
-package problems;
+
+package problems.arrays;
+
 
 public class ChapterOneProblemTwo {
     private static String strOne;

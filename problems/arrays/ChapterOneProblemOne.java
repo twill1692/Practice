@@ -2,8 +2,7 @@
 // Consider characters. There can be only so many unique strings of 
 // characters depending on the character encoding being used ie. ASCII,
 // extended ASCII or Unicode. Remember characters dont just mean letters.
-
-package problems;
+package problems.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
