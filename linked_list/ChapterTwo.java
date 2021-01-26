@@ -226,7 +226,7 @@ public class ChapterTwo {
     }
 
     // Main method
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         ChapterTwo myClass = new ChapterTwo();
         LinkedList list = myClass.new LinkedList();
         list.populateNodes();
