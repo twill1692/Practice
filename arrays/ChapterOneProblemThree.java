@@ -13,8 +13,6 @@
 //URL.
 //My method will not utilize any of the java utils.
 
-package problems.arrays;
-
 public class ChapterOneProblemThree {
     String inputString;
     // String REGEX;
