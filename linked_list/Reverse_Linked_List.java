@@ -1,4 +1,3 @@
-package problems.linked_list;
 
 public class Reverse_Linked_List {
     private Node head;

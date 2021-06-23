@@ -1,5 +1,3 @@
-package problems.linked_list;
-
 // import java.util.HashSet;
 
 public class ChapterTwo {

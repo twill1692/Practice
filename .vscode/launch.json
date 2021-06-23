@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ModStuff",
+            "request": "launch",
+            "mainClass": "ModStuff",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListStack",
+            "request": "launch",
+            "mainClass": "LinkedListStack",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayStack",
+            "request": "launch",
+            "mainClass": "ArrayStack",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "Stack",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch stack",
+            "request": "launch",
+            "mainClass": "stack",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChapterTwo",
+            "request": "launch",
+            "mainClass": "ChapterTwo",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListPracticeOne",
+            "request": "launch",
+            "mainClass": "LinkedListPracticeOne",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayBasics",
+            "request": "launch",
+            "mainClass": "ArrayBasics",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChapterOneProblemOne",
+            "request": "launch",
+            "mainClass": "ChapterOneProblemOne",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChapterOneProblemThree",
+            "request": "launch",
+            "mainClass": "ChapterOneProblemThree",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChapterOneProblemTwo",
+            "request": "launch",
+            "mainClass": "ChapterOneProblemTwo",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunningSum",
+            "request": "launch",
+            "mainClass": "RunningSum",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "java_practice_78cd68a5"
+        }
+    ]
+}
