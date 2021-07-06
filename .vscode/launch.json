@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayQueue",
+            "request": "launch",
+            "mainClass": "ArrayQueue",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericsPractice",
+            "request": "launch",
+            "mainClass": "GenericsPractice",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LLStack",
+            "request": "launch",
+            "mainClass": "LLStack",
+            "projectName": "java_practice_78cd68a5"
+        },
+        {
+            "type": "java",
             "name": "Launch ModStuff",
             "request": "launch",
             "mainClass": "ModStuff",
