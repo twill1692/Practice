@@ -1,11 +1,11 @@
 //A linked list implementation of stack D.S.
-public class LLStack {
+public class LinkedListStack {
 
     // This referance points to the top of the stack. It will always be what was
     // most recently added to the stack.
     static Node top;
 
-    LLStack() {
+    LinkedListStack() {
         top = null;
     }
 
@@ -72,7 +72,7 @@ public class LLStack {
     }
 
     public static void main(String[] args) {
-        LLStack stack = new LLStack();
+        LinkedListStack stack = new LinkedListStack();
         stack.push(3);
         stack.push(7);
         stack.push(9);

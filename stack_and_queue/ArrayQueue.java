@@ -10,6 +10,7 @@ public class ArrayQueue {
 		capacity = size;
 		elements = 0;
 		arrQueue = new int[capacity];
+		//Circular queue
 		tail = head = -1;
 		populate();
 	}
