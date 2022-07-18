@@ -13,7 +13,7 @@
 	<classpathentry kind="src" path="stack_and_queue"/>
 	<classpathentry kind="src" path="binary_tree"/>
 	<classpathentry kind="src" path="random"/>
-	<classpathentry kind="src" path="problems"/>
+	<classpathentry kind="src" path="review"/>
 	<classpathentry kind="src" path="sliding_window"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
