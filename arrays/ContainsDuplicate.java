@@ -1,13 +1,11 @@
-
-/*Given an integer array nums, return true if any value appears at 
+/* 217. Contains Duplicate Easy
+ * Given an integer array nums, return true if any value appears at 
  * least twice in the array,and return false if every element is 
  * distinct.*/
 
 import java.util.HashSet;
 
 public class ContainsDuplicate {
-
-	int nums[] = { 9, 4, 5, 8, 42, 999, 42 };
 
 	// Bruce force O(n^2)
 	// public boolean hasDuplicate(int[] nums) {
@@ -40,22 +38,19 @@ public class ContainsDuplicate {
 
 //	HashSet was accepted. But why is this faster?
 //  Answer: Its only O(n)
-	public boolean hasDuplicate(int[] nums) {
+	public static boolean hasDuplicate(int[] nums) {
 		HashSet<Integer> set = new HashSet<Integer>();
 		for (int i = 0; i < nums.length; i++) {
+			if (set.contains(nums[i])) {
+				return true;
+			}
 			set.add(nums[i]);
 		}
-		if (set.size() == nums.length) {
-			return false;
-		} else {
-			return true;
-		}
+		return false;
 	}
 
 	public static void main(String[] args) {
-		Boolean isUnique;
-		ContainsDuplicate theClass = new ContainsDuplicate();
-		isUnique = theClass.hasDuplicate(theClass.nums);
-		System.out.println("The array has duplicates: " + isUnique);
+		int nums[] = { 9, 4, 5, 8, 42, 999, 42 };
+		System.out.println(hasDuplicate(nums));
 	}
 }
