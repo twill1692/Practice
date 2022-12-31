@@ -6,7 +6,6 @@ this is similar to max K distinct, only with no repeats rather than K repeats.
 https://www.youtube.com/watch?v=3IETreEybaA
  */
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 public class LongestSubstringNoRepeat {
@@ -25,8 +24,8 @@ public class LongestSubstringNoRepeat {
 	// }
 	// return max;
 	// }
-	// Leet code optimed solution.
 
+// LeetCode optimized solution.
 	public static int lengthOfLongestSubstring(String s) {
 		int max = 0;
 		int winStart = 0;
